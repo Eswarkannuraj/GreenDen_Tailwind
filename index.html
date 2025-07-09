@@ -14,7 +14,7 @@
 <body>
   
   <!--Navbar-->
-  <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+  <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
     <h1 class="text-2xl">Greenden</h1>
 
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-6 w-6  md:hidden">
@@ -36,12 +36,12 @@
 
   <!--Header-->
 
-  <section class="bg-green-100 px-4 mb-4 justify-center flex md:items-center">
+  <section class="bg-green-100 p-4 mb-4 md:p-10 md:justify-around justify-center flex md:items-center">
     <div>
       <p>We Offer you a wide Range of artificial and Natural flowers</p>
-      <h2 class="font-bold text-3xl mb-5">Plants for your Interior</h2>
+      <h2 class="font-bold text-3xl mb-5 md:text-5xl">Plants for your Interior</h2>
       <div class="mb-5">
-        <button class="bg-black rounded p-2 text-white">Shop Now</button>
+        <button class="border border-black bg-black rounded p-2 text-white">Shop Now</button>
         <button class="border border-black rounded p-2">Watch Video</button>
       </div>
       <p>160+ Plant Species | 100+ Clients</p>
@@ -60,30 +60,98 @@
 
     <div class="md:flex">
       <div class="border border-black p-2 m-6">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-10 w-10 inline">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-10 w-10 inline hover:shadow-xl transform hover:translate-y-2" >
           <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
         </svg>
         
         <h2 class="text-xl font-medium">Large  Assortment</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem aliquam eaque consectetur. Delectus est, sequi unde aspernatur eos voluptatum illo fugiat harum. Ducimus, incidunt officia.</p>
+        <p>We offer a large assortment of fresh, vibrant flowers for every occasion — from romantic roses to cheerful daisies, beautifully arranged to brighten your day or someone else's.</p>
       </div>
       <div class="border border-black p-2 m-6">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-10 w-10 inline">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-10 w-10 inline hover:shadow-xl transform hover:translate-y-2" >
           <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
         </svg>
         
         <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem aliquam eaque consectetur. Delectus est, sequi unde aspernatur eos voluptatum illo fugiat harum. Ducimus, incidunt officia.</p>
+        <p>Enjoy free and fast shipping on all orders! We ensure your flowers arrive fresh and on time, making every moment special without any extra cost or delay.</p>
       </div>
       <div class="border border-black p-2 m-6">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-9 w-9 inline">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-9 w-9 inline hover:shadow-xl transform hover:translate-y-2" >
           <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
         </svg>
         
         <h2 class="text-xl font-medium">24/7 Support</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem aliquam eaque consectetur. Delectus est, sequi unde aspernatur eos voluptatum illo fugiat harum. Ducimus, incidunt officia.</p>
+        <p>Our dedicated team is available 24/7 to assist you with orders, questions, or custom requests—ensuring a smooth and delightful flower shopping experience anytime you need us.</p>
       </div>
     </div>
+  </section>
+
+  <!--Best Seller-->
+  <section class="p-4 text-center">
+    <h1 class="font-bold mt-5 text-3xl">Best Seller</h1>
+
+    <div class=" grid grid-cols-2 mt-5 md:grid-cols-4 gap-2">
+      <div >
+        <img src="images/plant-2.png" class="inline hover:shadow-xl transform hover:-translate-y-1 z-0"  >
+        <h1>Campanula</h1>
+        <p>$20</p>
+      </div>
+
+      <div>
+        <img src="images/plant-3.png" class="inline hover:shadow-xl transform hover:-translate-y-1" >
+        <h1>Amaryllis</h1>
+        <p>$13</p>
+      </div>
+
+      <div>
+        <img src="images/plant-4.png" class="inline hover:shadow-xl transform hover:-translate-y-1" >
+        <h1>Orchids</h1>
+        <p>$32</p>
+      </div>
+
+      <div>
+        <img src="images/plant-5.png" class="inline hover:shadow-xl transform hover:-translate-y-1" >
+        <h1>Daffodils</h1>
+        <p>$18</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Review Section-->
+  <section class="text-center">
+    <p class="font-bold text-3xl mt-3">Customer Reviews</p>
+    <div class="m-5">
+      <div class="bg-green-800 text-white text-left p-3 mt-2">
+        <p>"Absolutely stunning! The Campanula arrived in perfect condition and the vibrant purple blooms brightened up my living room instantly. It was packaged with care and looks even better than the pictures!"</p>
+        <p class="text-yellow-300">- Aishwarya M</p>
+      </div>
+      <div class="bg-green-800 text-white text-left p-3 mt-2">
+        <p>"The Amaryllis bulb bloomed within a week and it's now the centerpiece of my dining table. Elegant, unique, and totally worth it. Just wished it came with a care card!"</p>
+        <p class="text-yellow-300">- Rakesh N</p>
+      </div>
+      <div class="bg-green-800 text-white text-left p-3 mt-2">
+        <p>"I ordered the orchid and daffodil combo for a gift and it was a big hit! The flowers were fresh, well-packed, and had a pleasant natural fragrance. Will definitely order again."</p>
+        <p class="text-yellow-300">- Shruthi K</p>
+      </div>
+    </div>
+  </section>
+
+  <!--News Letter Section-->
+
+  <section class="text-center">
+    <h1 class="font-bold text-xl">Join Our News Letter</h1>
+    <p class="text-xs">Signup for our Email newspaper to get exclusive discounts,updates and more</p>
+    <input type="email" class="border border-black w-96 m-3 p-1" style="width: 80%;">
+    <button class="mx-auto block bg-black text-white p-2 underline m-2">Subscribe</button>
+  </section>
+
+  <!--Footer Section-->
+
+  <section class="bg-green-100 p-5 flex flex-col gap-2">
+    <h1 class="font-bold text-2xl">Greenden</h1>
+    <p >For inquiries or support, please contact our team or visit our website for more information.</p>
+    <p>&copy; 2025 GreenDen.com</p>
   </section>
 </body>
 
